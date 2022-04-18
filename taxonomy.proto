@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package taxonomy;
+
+option go_package = "github.com/jncmaguire/example-proto-types";
+
+message Classification {
+    string kingdom = 1;
+    string phylum = 2;
+    string class = 3;
+    string order = 4;
+    string suborder = 5;
+    string family = 6;
+    string subfamily = 7;
+    string genus = 8;
+    string species = 9; 
+}
